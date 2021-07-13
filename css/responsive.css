@@ -27,6 +27,14 @@
     .players{
         grid-template-columns: repeat(1, 1fr);
     }
+    .player_info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .player_name p{
+        text-align: start;
+    }
     .blogs{
         grid-template-columns: repeat(1, 1fr);
     }
