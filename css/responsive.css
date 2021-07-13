@@ -1,9 +1,9 @@
 @media only screen and (max-width:480px) {
     header{
-        width: 480px;
+        width: 100%;
     }
     .top_header{
-        width: 480px;
+        width: 100%;
         justify-content: space-around;
     }
     .nav_item{
@@ -21,20 +21,25 @@
         width: 35px;
     }
     .about{
-        width: 480px;
+        width: 100%;
         height: auto;
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
     }
-    .player_info{
-        margin-left: 125px;
-    }
     .blogs{
         grid-template-columns: repeat(1, 1fr);
     }
+    .blog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog_info h2,p{
+        text-align: center;
+    }
     .course_section{
-        width: 480px;
+        width: 100%;
         height: auto;
     }
     .courses{
