@@ -1,0 +1,47 @@
+@media only screen and (max-width:480px) {
+    header{
+        width: 480px;
+    }
+    .top_header{
+        width: 480px;
+        justify-content: space-around;
+    }
+    .nav_item{
+        width: 250px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav_item a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    .nav_item a img{
+        width: 35px;
+    }
+    .about{
+        width: 480px;
+        height: auto;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player_info{
+        margin-left: 125px;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .course_section{
+        width: 480px;
+        height: auto;
+    }
+    .courses{
+        flex-direction: column;
+        align-items: center;
+    }
+    .course{
+        margin-bottom: 30px;
+    }
+}
